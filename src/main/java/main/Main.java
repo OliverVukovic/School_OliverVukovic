@@ -11,18 +11,18 @@ public class Main {
        
        Student ime = new Student();
        ime.info();
-       
         
        ime.setFirstName("Alexa");
        ime.setSurname("Vukotic");
        ime.setYear(1980); 
+       ime.info();
        
+       Course naziv = new Course();
+       naziv.info(); 
        
+       Computer podaci = new Computer();
+       podaci.info();
        
-        
-        
-        
-        
         
         
         

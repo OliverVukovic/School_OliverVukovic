@@ -4,12 +4,16 @@ import course.Course;
 import computer.Computer;        
 
 
+
+
 public class Student {
     private String firstName;     //ime
     private String surname;       //prezime
     private int year;             //god rodjenja
     private Course course;
     private Computer computer;
+    
+
     
 public Student() {
     this.firstName = "Oliver";
@@ -19,6 +23,7 @@ public Student() {
     this.computer = computer;
 }    
 
+
 public Student(String firstName, String surname, int year, Course course, Computer computer) {
     this.firstName = firstName;
     this.surname = surname;
@@ -26,7 +31,8 @@ public Student(String firstName, String surname, int year, Course course, Comput
     this.course = course;
     this.computer = computer;
 }
-    
+
+
 
 public String getFirstName() {
         return this.firstName;
@@ -56,17 +62,15 @@ public Course getCourse() {
         return course;
 }
 
-public void setCourse(Course course) {
-        this.course = course;
-}
+
 
 public Computer getComputer() {
         return computer;
 }
 
-public void setComputer(Computer computer) {
-        this.computer = computer;
-}
+
+
+
 
 
 public void info() {

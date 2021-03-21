@@ -2,6 +2,7 @@ package course;
 
 public class Course {
     
+    
     private String name;     //ime kursa
     private int numberOfClasses;  //broj casova
     private String codeName;        //naziv obuke
@@ -15,7 +16,7 @@ public Course() {
 public Course(String name, int numberOfClasses, String codeName) {
     this.name = name;                          // naziv kursa
     this.numberOfClasses = numberOfClasses;    // br.casova
-    this.codeName = codeName;                  // ?
+    this.codeName = codeName;                  // kodni naziv
 }
     
 
