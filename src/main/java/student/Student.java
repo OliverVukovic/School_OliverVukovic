@@ -62,13 +62,17 @@ public Course getCourse() {
         return course;
 }
 
-
+public void setCourse(Course newCourse) {
+        this.course = newCourse;
+}
 
 public Computer getComputer() {
         return computer;
 }
 
-
+public void setComputer(Computer newComputer) {
+        this.computer = newComputer;
+}
 
 
 
