@@ -12,22 +12,22 @@ public class Main {
     public static void main(String[] args) {
        
        Student ime = new Student();
-       ime.info();
-        
-       ime.setFirstName("Alexa");
-       ime.setSurname("Vukotic");
-       ime.setYear(1980); 
-       ime.info();
        
-       Course naziv = new Course();
+       ime.setFirstName("Oliver");
+       ime.setSurname("Vukovic");
+       ime.setYear(1979); 
+       
+       
+       Course naziv = new Course("QA kurs", 40, "QA");
        naziv.info(); 
        
-       Computer podaci = new Computer();
+       Computer podaci = new Computer("Windows", 4.0, 16.0, 2000);
        podaci.info();
        
+       ime.setCourse(naziv);
+       ime.setComputer(podaci);
         
-        
-        
+       ime.info(); 
     }
     
 }

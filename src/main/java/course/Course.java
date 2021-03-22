@@ -8,9 +8,7 @@ public class Course {
     private String codeName;        //naziv obuke
     
 public Course() {
-    this.name = "Quality Assurance tester kurs";
-    this.numberOfClasses = 40;
-    this.codeName = "QA";
+
 }    
 
 public Course(String name, int numberOfClasses, String codeName) {

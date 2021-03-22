@@ -8,10 +8,7 @@ public class Computer {
     private int hardDrive;              // hard disk GB
     
 public Computer() {
-    this.operatingSistem = "Windows";
-    this.processTact = 2.4;
-    this.memory = 16.0;
-    this.hardDrive = 500;
+    
 }    
 
 public Computer(String operatingSistem, double processTact, double memory, int hardDrive) {

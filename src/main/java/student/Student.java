@@ -17,11 +17,7 @@ public class Student {
 
     
 public Student() {
-    this.firstName = "Oliver";
-    this.surname = "Vukovic";
-    this.year = 1979;
-    this.course = course;
-    this.computer = computer;
+   
 }    
 
 
@@ -82,6 +78,10 @@ public void info() {
     System.out.println("Ime: " + this.getFirstName());
     System.out.println("Prezime: " + this.getSurname());
     System.out.println("Godina rodjenja: " + this.getYear());
+    System.out.println("Kurs: "  );
+            this.course.info();
+    System.out.println("Kompjuter: "  );
+            this.computer.info();        
 
 }    
 
