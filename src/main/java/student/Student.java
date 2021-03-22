@@ -10,6 +10,7 @@ public class Student {
     private String firstName;     //ime
     private String surname;       //prezime
     private int year;             //god rodjenja
+    
     private Course course;
     private Computer computer;
     
@@ -59,7 +60,7 @@ public void setYear(int newYear) {
 }        
 
 public Course getCourse() {
-        return course;
+        return this.course;
 }
 
 public void setCourse(Course newCourse) {
@@ -67,7 +68,7 @@ public void setCourse(Course newCourse) {
 }
 
 public Computer getComputer() {
-        return computer;
+        return this.computer;
 }
 
 public void setComputer(Computer newComputer) {
@@ -81,11 +82,7 @@ public void info() {
     System.out.println("Ime: " + this.getFirstName());
     System.out.println("Prezime: " + this.getSurname());
     System.out.println("Godina rodjenja: " + this.getYear());
-    System.out.println("Naziv kursa: " + this.getCourse());
-    System.out.println("Broj casova: " + this.getCourse());
-    System.out.println("Procesor: " + this.getComputer() + " GHz");
-    System.out.println("Memorija: " + this.getComputer() + " GB");
-    System.out.println("Hard disk: " + this.getComputer() + " GB");
+
 }    
 
    
