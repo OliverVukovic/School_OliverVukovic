@@ -8,7 +8,6 @@ public class Computer {
     private int hardDrive;              // hard disk GB
     
 public Computer() {
-    
 }    
 
 public Computer(String operatingSistem, double processTact, double memory, int hardDrive) {
@@ -22,15 +21,13 @@ public Computer(String operatingSistem, double processTact, double memory, int h
 public String getOperatingSistem() {
         return this.operatingSistem;
 }
-
-public void setName(String newOperatingSistem) {
+public void setOperatingSistem(String newOperatingSistem) {
         this.operatingSistem = newOperatingSistem;
 }
 
 public double getProcessTact() {
         return this.processTact;
 }
-
 public void setProcessTact(double newProcessTact) {
         this.processTact = newProcessTact;
 }        
@@ -38,7 +35,6 @@ public void setProcessTact(double newProcessTact) {
 public double getMemory() {
         return this.memory;
 }
-
 public void setMemory(double newMemory) {
         this.memory = newMemory;    
 }        
@@ -46,7 +42,6 @@ public void setMemory(double newMemory) {
 public int getHardDrive() {
         return this.hardDrive;
 }
-
 public void setHardDrive(int newHardDrive) {
         this.hardDrive = newHardDrive;    
 }        
@@ -58,15 +53,7 @@ public void info() {
     System.out.println("Memorija: " + this.getMemory() + " GB");
     System.out.println("Hard disk: " + this.getHardDrive() + " GB");
 }        
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
     
     
 }

@@ -2,13 +2,11 @@
 package main;
 
 import student.Student;
-import course.Course;
-import computer.Computer;
+
 
 public class Main {
     
     
-
     public static void main(String[] args) {
        
        Student ime = new Student();
@@ -16,17 +14,12 @@ public class Main {
        ime.setFirstName("Oliver");
        ime.setSurname("Vukovic");
        ime.setYear(1979); 
-       
-       
-       Course naziv = new Course("QA kurs", 40, "QA");
-       naziv.info(); 
-       
-       Computer podaci = new Computer("Windows", 4.0, 16.0, 2000);
-       podaci.info();
-       
-       ime.setCourse(naziv);
-       ime.setComputer(podaci);
-        
+       ime.getCourse().setName("QA kurs");                   // ovaj deo nisam znao
+       ime.getCourse().setNumberOfClasses(40);
+       ime.getComputer().setProcessTact(2.4);
+       ime.getComputer().setMemory(16.0);
+       ime.getComputer().setHardDrive(500);
+
        ime.info(); 
     }
     

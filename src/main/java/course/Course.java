@@ -8,7 +8,6 @@ public class Course {
     private String codeName;        //naziv obuke
     
 public Course() {
-
 }    
 
 public Course(String name, int numberOfClasses, String codeName) {
@@ -21,7 +20,6 @@ public Course(String name, int numberOfClasses, String codeName) {
 public String getName() {
         return this.name;
 }
-
 public void setName(String newName) {
         this.name = newName;
 }
@@ -29,7 +27,6 @@ public void setName(String newName) {
 public int getNumberOfClasses() {
         return this.numberOfClasses;
 }
-
 public void setNumberOfClasses(int newNumberOfClasses) {
         this.numberOfClasses = newNumberOfClasses;
 }        
@@ -37,7 +34,6 @@ public void setNumberOfClasses(int newNumberOfClasses) {
 public String getCodeName() {
         return this.codeName;
 }
-
 public void setYear(String newCodeName) {
         this.codeName = newCodeName;    
 }        
@@ -49,13 +45,6 @@ public void info() {
     System.out.println("Kodni naziv: " + this.getCodeName());
     System.out.println("");
 }    
-
-
-
-
-
-
-
 
 
 
